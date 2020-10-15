@@ -2,7 +2,7 @@
 
 ## The Project
 
-A very simple, not very clean nor beautiful Tic-Tac-Toe game created using basic HTML, CSS and, of course, Javascript.
+A very simple, not very clean, not very beautiful Tic-Tac-Toe game created using basic HTML, CSS and, of course, Javascript.
 
 ## Author
 
