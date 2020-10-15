@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Tic-Tac-Toe </title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body onload="reloadMap()">
+		<h1>TIC-TAC-TOE</h1>
+		<container>
+            <span id="gameGrid">
+                <input type="button" class="cases" id="case1" onclick="changeColor(1)">
+                <input type="button" class="cases" id="case2" onclick="changeColor(2)">
+                <input type="button" class="cases" id="case3" onclick="changeColor(3)"><br>
+                <input type="button" class="cases" id="case4" onclick="changeColor(4)">
+                <input type="button" class="cases" id="case5" onclick="changeColor(5)">
+                <input type="button" class="cases" id="case6" onclick="changeColor(6)"><br>
+                <input type="button" class="cases" id="case7" onclick="changeColor(7)">
+                <input type="button" class="cases" id="case8" onclick="changeColor(8)">
+                <input type="button" class="cases" id="case9" onclick="changeColor(9)"> 
+            </span>
+            <br>
+
+            <span id="gameInfo">
+                <span id = "blue">Bleu : <span id = "blueScore">0</span></span>
+                <span id = "red">Rouge : <span id = "redScore">0</span></span> <br><br>
+                <input type="button" value="Nouvelle partie"  onclick="reloadMap()"> 
+            </span>
+        </container>        
+	</body>
+</html>
